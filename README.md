@@ -38,7 +38,7 @@ To set up and run the project locally, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/quest-for-lost-treasure.git
+    git clone https://github.com/CodeDevil00/quest-for-lost-treasure.git
     cd quest-for-lost-treasure
     ```
 
@@ -68,10 +68,6 @@ To contribute:
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
