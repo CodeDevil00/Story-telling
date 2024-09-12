@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quest for the Lost Treasure</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include AOS (Animate on Scroll) Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Navigation Menu with Glassmorphism Effect -->
+    <nav class="glass" data-aos="fade-down" data-aos-duration="1000">
+        <ul>
+            <li><a href="#chapter1">Chapter 1</a></li>
+            <li><a href="#chapter2">Chapter 2</a></li>
+            <li><a href="#chapter3">Chapter 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Animated Background Elements -->
+    <div class="animated-background"></div> <!-- Dynamic gradient background -->
+    <div id="particles-js"></div> <!-- Particle background -->
+
+    <!-- Story Sections -->
+    <section id="chapter1" class="story-section parallax" data-aos="zoom-in" data-aos-duration="1500">
+        <h2 class="animated-heading">Chapter 1: The Mysterious Map</h2>
+        <img src="images/map.jpg" alt="Old Map" class="story-image floating" data-aos="flip-right" data-aos-duration="2000">
+        <p class="animated-text" data-aos="fade-up" data-aos-duration="2000">
+            It was a stormy night when Alex discovered an old map hidden in a dusty attic...
+        </p>
+    </section>
+
+    <!-- Chapter 2: The Perilous Journey -->
+    <section id="chapter2" class="story-section parallax" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="animated-heading">Chapter 2: The Perilous Journey</h2>
+        <img src="images/forest.jpg" alt="Dark Forest" class="story-image floating" data-aos="fade-in" data-aos-duration="2000">
+        <p class="animated-text" data-aos="zoom-in" data-aos-duration="2000">
+            With determination in their heart, Alex set off on a journey through the dark and eerie forest. The path was fraught with dangers, from wild animals to treacherous cliffs...
+        </p>
+    </section>
+
+    <!-- Chapter 3: The Final Discovery -->
+    <section id="chapter3" class="story-section parallax" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="animated-heading">Chapter 3: The Final Discovery</h2>
+        <img src="images/treasure.jpg" alt="Hidden Treasure" class="story-image floating" data-aos="zoom-out" data-aos-duration="2000">
+        <p class="animated-text" data-aos="flip-left" data-aos-duration="2000">
+            Finally, after days of searching, Alex found the hidden treasure chest buried under an ancient oak tree. But as they opened the chest, they found not gold or jewels, but a message that read, "The real treasure is the adventure itself..."
+        </p>
+    </section>
+
+    <!-- Include JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

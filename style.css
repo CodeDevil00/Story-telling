@@ -1,0 +1,81 @@
+/* Animated Gradient Background */
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(130deg, #00c6ff, #0072ff); /* Initial gradient background */
+    animation: gradientAnimation 15s ease infinite;
+    z-index: -2; /* Ensure this is behind everything */
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Particle background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Behind the content but in front of the gradient background */
+}
+
+/* Navigation Menu */
+nav {
+    position: fixed; /* Make sure the menu stays fixed on top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent background to make it visually appealing */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    z-index: 10; /* Make sure this is above everything */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6a00;
+}
+
+/* Content Sections */
+.story-section {
+    position: relative;
+    padding: 100px 20px;
+    z-index: 5; /* Make sure this is above the background but below the navigation */
+}
+
+.animated-heading, .animated-text {
+    z-index: 5;
+    position: relative;
+}
+
+.story-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    z-index: 5;
+}
