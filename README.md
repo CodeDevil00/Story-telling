@@ -72,5 +72,4 @@ To contribute:
 ## Acknowledgments
 
 - Thanks to the AOS library and Particles.js for providing awesome animations and effects.
-- Special thanks to [Your Name] for creating and designing this interactive story website.
 
